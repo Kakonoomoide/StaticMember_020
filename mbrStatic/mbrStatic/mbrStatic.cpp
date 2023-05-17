@@ -27,5 +27,13 @@ void mahasiswa::printAll() {
 }
 
 int main(){
+    mahasiswa mhs1("lia kurnia");
+    mahasiswa mhs2("Asroni");
+    mhs2.nim = 10;
+    mahasiswa mhs3("Andi Kurniawan");
+    mhs2.nim = 20;
+    mahasiswa mhs4("Joko Purbo");
+
+
     
 }
