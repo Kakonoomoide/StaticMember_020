@@ -12,6 +12,13 @@ public:
 	void isiData();
 };
 
+//definisi member func
+angka::angka(int i) { //construktor
+	panjang = i;
+	arr = new int[i];
+	isiData();
+}
+
 int main(){
    
 }
