@@ -39,5 +39,10 @@ void angka::isiData() {
 }
 
 int main(){
+	angka belajarcpp(3); //construktor
+	angka* ptrBelajarcpp = new angka(5);//construktor
+	delete ptrBelajarcpp;//destructor
+
+	return 0;
    
 }
