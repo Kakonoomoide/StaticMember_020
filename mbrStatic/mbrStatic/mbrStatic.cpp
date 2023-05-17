@@ -3,11 +3,15 @@ using namespace std;
 
 class mahasiswa{
 public:
+    static int nim;
+    int id;
+    string nama;
 
-private:
+    void setID();
+    void printAll();
+    mahasiswa(string pnama) :nama(pnama) { setID(); }
 
 };
-
 
 int main(){
     
